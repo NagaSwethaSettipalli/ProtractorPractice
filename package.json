@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "protractor testing",
   "main": "conf.js",
-  "dependencies":{
-    "protractor":"^5.3.2",
+  "dependencies": {
+    "protractor": "^5.3.2",
     "jasmine": "^3.1.0"
   },
   "scripts": {
