@@ -2,10 +2,15 @@
 exports.config = {
     framework: 'jasmine', //Type of Framework used 
     seleniumAddress: 'https://localhost:4444/wd/hub',
-    specs: ['spec.js'], //Name of the Specfile
+    specs: [
+     // 'spec.js',
+      'multipletestsspec.js'
+    ], //Name of the Specfile
+
     directConnect: true,
     multiCapabilities: [
       {
+      // browserName: 'firefox',
       'browserName': 'chrome',
       'chromeOptions': {
         prefs: {
