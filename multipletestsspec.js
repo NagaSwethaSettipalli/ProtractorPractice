@@ -1,5 +1,3 @@
-const { browser, element } = require("protractor")
-
 describe('multiple scenarios', function(){
     //global variables
    var firstNumber = element(by.model('first'));

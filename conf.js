@@ -3,8 +3,10 @@ exports.config = {
     framework: 'jasmine', //Type of Framework used 
     seleniumAddress: 'https://localhost:4444/wd/hub',
     specs: [
-     // 'spec.js',
-      'multipletestsspec.js'
+      // 'spec.js',
+      //'multipletestsspec.js',
+      //  'getListofElementsspec.js'
+      'chainLocators.js'
     ], //Name of the Specfile
 
     directConnect: true,
